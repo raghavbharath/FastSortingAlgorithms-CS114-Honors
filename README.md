@@ -1,45 +1,45 @@
-# 📊 Generic Sorting Algorithms in Java
+# Generic Sorting Algorithms in Java
 
-### 👨‍💻 Raghav Bharath  
-### 📚 Course: CS114 Honors – Data Structures & Algorithms in Java  
-### 👨‍🏫 Professor: Jonathan Kapleau  
-### 📄 File: `Sorts.java`
-### 💯 Grade: 100/100
+### Raghav Bharath  
+### Course: CS114 Honors – Data Structures & Algorithms in Java  
+### Professor: Jonathan Kapleau  
+### File: `Sorts.java`
+### Grade: 100/100
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
-This project showcases the implementation of **six fundamental sorting algorithms** in Java using a **generic, reusable, and object-oriented design**.
+For this project in my DSA in Java class, the goal was to implement and learn the **six fundamental sorting algorithms** in Java using a **generic, reusable, and object-oriented design**.
 
 By leveraging **Java Generics** and the **`Comparable` interface**, each algorithm is designed to work with any object type that defines a natural ordering — making this project highly versatile and extensible.
 
 ---
 
-## 🔍 Key Features
+## Key Features
 
-✅ Fully generic methods using `<T extends Comparable<? super T>>`  
-✅ In-place sorting (no extra memory unless needed)  
-✅ Efficient recursive and iterative approaches  
-✅ Educational structure for comparison and benchmarking  
-✅ Tested on `Integer[]` but applicable to `String[]`, `Double[]`, or custom classes  
+- Fully generic methods using `<T extends Comparable<? super T>>`
+- In-place sorting (no extra memory unless needed)
+- Efficient recursive and iterative approaches
+- Educational structure for comparison and benchmarking
+- Tested on `Integer[]` but applicable to `String[]`, `Double[]`, or custom classes  
 
 ---
 
-## 🚀 Implemented Algorithms
+## Implemented Algorithms
 
 | Algorithm     | Time Complexity (Avg) | Time Complexity (Worst) | Space Complexity | Type      |
 |---------------|------------------------|---------------------------|------------------|-----------|
-| 🔁 Bubble Sort | O(n²)                  | O(n²)                     | O(1)             | Stable    |
-| 📌 Insertion Sort | O(n²)             | O(n²)                     | O(1)             | Stable    |
-| 🎯 Selection Sort | O(n²)             | O(n²)                     | O(1)             | Unstable  |
-| 🔀 Quick Sort   | O(n log n)            | O(n²)                     | O(log n)         | Unstable  |
-| 🌊 Merge Sort   | O(n log n)            | O(n log n)                | O(n)             | Stable    |
-| 🛠 Heap Sort    | O(n log n)            | O(n log n)                | O(1)             | Unstable  |
+| Bubble Sort | O(n²)                  | O(n²)                     | O(1)             | Stable    |
+| Insertion Sort | O(n²)             | O(n²)                     | O(1)             | Stable    |
+| Selection Sort | O(n²)             | O(n²)                     | O(1)             | Unstable  |
+| Quick Sort   | O(n log n)            | O(n²)                     | O(log n)         | Unstable  |
+| Merge Sort   | O(n log n)            | O(n log n)                | O(n)             | Stable    |
+| Heap Sort    | O(n log n)            | O(n log n)                | O(1)             | Unstable  |
 
 ---
 
-## 📦 Example Usage
+## Example Test Case
 
 ```java
 public static void main(String[] args) {
